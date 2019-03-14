@@ -2,77 +2,79 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!--link to get bootstrap working-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--link to connect css page whit html-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title> Redline project</title>
+    <title>Redline project</title>
   </head>
   <body>
     <!--navbar-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">GAWI, The medical accounting specialists</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
+  <nav class="navbar navbar-light" style="background-color: #ffffff;">
+    <img src="IMG/logo-gawi.jpg" width="60" height="60" class="d-inline-block align-top" alt="">
+    <a class="navbar-brand" href="#"><strong>GAWI The medical accounting specialists</strong></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-    controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse text-center" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a href="index.html" class="btn btn-outline-primary rounded-pill border-0">Home</a>
+        <!--first button of the navbar-->
+        <a href="index.html" class="btn btn-outline-primary rounded-pill border-0"><strong>Home</strong></a>
       </li>
       <li class="nav-item">
-      <a href="historiek.html" class="btn btn-outline-primary rounded-pill border-0">Historiek</a>
+        <!--seconde button of the navbar-->
+      <a href="historiek.html" class="btn btn-outline-primary rounded-pill border-0"><strong>Historiek</strong></a>
       </li>
       <li class="nav-item">
-        <a href="contact.html" class="btn btn-outline-primary rounded-pill border-0">Contact</a>
+        <!--thirth button of the navbar-->
+        <a href="contact.html" class="btn btn-outline-primary rounded-pill border-0"><strong>Contact</strong></a>
       </li>
     </ul>
   </div>
 </nav>
-
-
-<div class="container">
-<div class="row">
-    <div class="col">
-      <div class="card p-4 mt-5 shadow p-3 mb-5 bg-white rounded">
-        <img src="IMG/foto5.jpg" class=" w-75 m-auto card-img-top" alt="a logo of the word wide web">
-        <div class="card-body text-center">
-          <h1 class="card-title">Home</h1>
-          <p class="card-text"> <h3>Onze activiteiten</h3>
-            <p> Het voeren van de volledige boekhouding voor zowel eenmanszaak als vennootschappen.
-              <br>Een totaal service inzake fiscaliteit.</p>
-              <hr>
-              <h3>Onze belangrijkste prioriteiten </h3>
-              Persoonlijk contact<br>
-              onafhankelijke begeleiding<p>
-                <hr>
-                <h3> Onze doel ! </h3>
-                Ons <strong>doel</strong> is het opbouwen van een lange termijn relatie met onze artsen.
-                Onze begeleiding gaat verder dan louter verwerking van documenten.
-                Artsen krijgen zeer vaak onoverzichtelijke informatie binnen omtrent kosten, verzekeringen, pensioenregelingen….
-                Wij zorgen ook op dat gebied voor de nodige duidelijkheid.<p>
-                <hr>
-                <h4>Een greep uit onze <strong>meest voorkomende activiteiten</strong></h4>
-                <br>Raadgevingen omtrent kosten maximalisatie.
-                <br>Prognoses overgang eenmanszaak naar vennootschap.
-                <br>Begeleiding bij vereffening van de vennootschap.
-                <hr>
-                <a href="contact.html" class="btn btn-outline-primary rounded-pill border-0"> Contacteer ons</a>
+    <!--container-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <!--this div is for the padding, maring, hight, ect.. of the box incl shadow and color-->
+          <div class="card p-0 mt-1 w-50 m-auto shadow p- mb-0 bg-white rounded">
+            <!--image of the homepage-->
+            <img src="IMG/foto5.jpg" class="img-fluid" alt="a picture with a laptop and some other stuff to present a   accountancy desk">
+            <!--this div is where the content is writin on-->
+            <div class="card-body text-center">
+                <h1 class="card-title">Home</h1><hr>
+                    <p class="card-text"> <h3>Onze activiteiten</h3>
+                    <p> Het voeren van de volledige boekhouding voor zowel eenmanszaak als vennootschappen.
+                    <br>Een totaal service inzake fiscaliteit.</p>
+                    <hr>
+                    <h3>Onze belangrijkste prioriteiten </h3>
+                    Persoonlijk contact<br>
+                    onafhankelijke begeleiding<p>
+                    <hr>
+                    <h3> Onze doel ! </h3>
+                    Ons <strong>doel</strong> is het opbouwen van een lange termijn relatie met onze artsen.
+                    Onze begeleiding gaat verder dan louter verwerking van documenten.
+                    Artsen krijgen zeer vaak onoverzichtelijke informatie binnen omtrent kosten, verzekeringen, pensioenregelingen….
+                    Wij zorgen ook op dat gebied voor de nodige duidelijkheid.<p>
+                    <hr>
+                    <h4>Een greep uit onze <strong>meest voorkomende activiteiten</strong></h4>
+                    <br>Raadgevingen omtrent kosten maximalisatie.
+                    <br>Prognoses overgang eenmanszaak naar vennootschap.
+                    <br>Begeleiding bij vereffening van de vennootschap.
+                    <hr>
+                    <!--this button navigate to the contact page-->
+                    <a href="contact.html" class="btn btn-outline-primary rounded-pill border-0"><strong>Contacteer ons</strong></a>
+                    <!--this closes the div of the content-->
               </div>
+              <!--this closes the div of the adjustment-->
             </div>
           </div>
         </div>
+        <!--this close the container-->
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
+      <!-- this is some javascript for bootstrap-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
