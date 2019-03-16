@@ -1,0 +1,11 @@
+body {
+
+  background: -webkit-radial-gradient(rgb(255, 255, 255), rgb(213, 213, 213));
+  background: radial-gradient(rgb(255, 255, 255), rgb(213, 213, 213));
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+}

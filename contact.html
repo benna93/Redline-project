@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title> Redline project</title>
@@ -34,7 +35,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-        <div class="card p-0 mt-1 w-75 m-auto shadow p-0 mb-0 bg-white rounded">
+        <div class="card w-75 m-auto shadow bg-white rounded">
                   <img src="IMG/foto2.jpg" class="img-fluid" height="300" alt="implement a conversation with two people on a desk">
                   <h1 class="card-title text-center mt-3">Contact</h1><hr>
             <div class="d-flex flex-row">
@@ -48,7 +49,7 @@
                   email : gawi@scarlet.be<br>
                 </div>
 
-                <div class="card-body text-left">
+                <div class="card-body text-right">
                       <strong>OPENINGSUREN</strong> <br>
                       Maandag    9 h - 17 h<br>
                       Dinsdag    9 h - 17 h<br>
@@ -58,6 +59,7 @@
                       Zaterdag, Zondag en feestdagen zijn wij gesloten<br>
                       Bij <strong>dringende</strong> oproepen contact opnemen via GSM nummer
                 </div>
+            </div>
 
                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
@@ -65,16 +67,16 @@
                     <div class="row">
 
                         <!--Grid column-->
-                        <div class="col-md-10">
-                            <div class="md-form mb-0">
+                        <div class="col-md-6">
+                            <div class="md-form">
                                 <input type="text" id="name" name="name" class="form-control">
                                 <label for="name" class="">Naam</label>
                             </div>
                         </div>
 
                         <!--Grid column-->
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
+                        <div class="col-md-8">
+                            <div class="md-form">
                                 <input type="text" id="email" name="email" class="form-control">
                                 <label for="email" class="">Email</label>
                             </div>
@@ -86,8 +88,8 @@
 
                     <!--Grid row-->
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="md-form mb-0">
+                        <div class="col-md-10">
+                            <div class="md-form">
                                 <input type="text" id="subject" name="subject" class="form-control">
                                 <label for="subject" class="">Onderwerp</label>
                             </div>
@@ -112,14 +114,14 @@
 
                 </form>
 
-                <div class="text-center text-md-left">
-                    <a class="btn btn-outline-primary rounded-pill border-0" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <div class="text-center">
+                    <a class="btn btn-outline-primary rounded-pill border-0" onclick="document.getElementById('contact-form').submit();"><h4>Send</h4></a>
                 </div>
                 <div class="status"></div>
                 </div>
 
-            </div>
-        </div>
+
+
       </div>
     </div>
   </div>
